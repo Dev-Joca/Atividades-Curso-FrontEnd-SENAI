@@ -1,0 +1,14 @@
+<main>
+    <article id="form_page">
+        <div id="login_div">
+            <form id="login_form" (ngSubmit)="Logado()">
+                <h2>Login</h2>
+                <label class="form_label" for="Login">Login:</label>
+                <input class="form_input" type="text" name="User" [(ngModel)]="userModel.email"/>
+                <label class="form_label" for="Senha">Senha:</label>
+                <input class="form_input" type="password" name="Password" [(ngModel)]="userModel.password"/>
+                <button class="form_button" type="submit">Entrar</button>
+            </form>
+        </div>
+    </article>
+</main>
