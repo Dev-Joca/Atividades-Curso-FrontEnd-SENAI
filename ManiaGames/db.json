@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "email": "name@example.com",
+      "password": "$2a$10$hCQTaMpHMGQf7OjO4Y9lxupquCdf/QTtr9yoLpksh0KGOcDQK5K8K",
+      "name": "Guilherme",
+      "age": 18,
+      "id": 1
+    }
+  ],
+  "produtos": []
+}

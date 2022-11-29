@@ -1,0 +1,25 @@
+<app-header></app-header>
+<br>
+<div class="userlogin">
+    <h2>Sua Conta</h2>
+    <h3>Entre em sua conta</h3>
+    <h4>Não tem conta? <a class="register" routerLink="/register">Clique aqui</a> para se cadastrar!</h4>
+    <form id="form" class="form"(ngSubmit)="receberDados()">
+        <label for="uemail">E-mail:</label><br>
+        <input type="email" placeholder="name@example.com" [(ngModel)]="userModel.email" name="uemaillogin" required><br>
+
+        <label for="upassword">Senha:</label><br>
+        <input type="password" placeholder="Digite sua senha" name="upassword" [(ngModel)]="userModel.password" required><br><br>
+
+        <input type="submit" value="Entrar" onclick="clickLogin()"><br>
+    </form>
+    <br *ngIf=" mensagem != '' ">
+    <p id="msgErro" *ngIf=" mensagem != '' ">{{mensagem}}</p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>

@@ -1,0 +1,462 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #121212
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.name {
+    color: red;
+    background-color: #000569;
+    font-size: 40px;
+    font-family: 'Inder', sans-serif;
+    letter-spacing: 2px;
+}
+
+.barras {
+    display: none;
+    width: 30px;
+}
+
+.menu-jquery {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px #000229;
+}
+
+.menu-jquery-escondido {
+    display: none;
+}
+
+.menutop {
+    font-size: 28px;
+    background-color: #000350;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menutop a {
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+}
+
+.menutop svg {
+    width: 30px;
+    fill: white;
+}
+
+.menutop a:hover {
+    color: gray;
+    scale: 0.9;
+}
+
+.produto {
+    margin: auto;
+    text-align: center;
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 40px;
+    background-color: #000350;
+    height: 480px;
+    width: 600px;
+    color: white;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.produtoimg {
+    height: 480px;
+    width: 600px;
+}
+
+.produtoimg-xbox {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-image: url(/assets/img/xboxone.jpg);
+    background-size: 600px 480px;
+    background-repeat: no-repeat;
+}
+
+.produtoimg-ps4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-image: url(/assets/img/ps4.jpg);
+    background-size: 600px 480px;
+    background-repeat: no-repeat;
+}
+
+.produtoimg-note {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-image: url(/assets/img/notebookstart.jpg);
+    background-size: 600px 480px;
+    background-repeat: no-repeat;
+}
+
+.nossosprods {
+    text-align: center;
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+}
+
+.listaprodutos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.listaprodutos h2 {
+    color: white;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.produtos {
+    width: 250px;
+    height: 480px;
+    margin-bottom: 32px;
+}
+
+.setores {
+    padding: 15px;
+}
+
+.card {
+    width: 452px;
+    background-color: #0C0C0C;
+    margin: 15px;
+    box-shadow: 0 0 30px #0C0C0C
+}
+
+.secao_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imagemprod:hover {
+    scale: 0.9;
+}
+
+.produtos h4 {
+    font-size: 18px;
+    justify-content: center;
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.produtos p {
+    font-size: 18px;
+    justify-content: center;
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+    margin-left: 5px;
+}
+
+.imagemprod {
+    width: 450px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 16px;
+    font-family: 'Inria Sans', sans-serif;
+    margin-left: 5px;
+}
+
+.button:hover {
+    scale: 0.9;
+}
+
+.socials {
+    width: 32px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.socials:hover {
+    scale: 1.1;
+}
+
+.contato {
+    text-align: center;
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+}
+
+.form {
+    text-align: center;
+    color: white;
+}
+
+.form input {
+    border-radius: 10px;
+    background-color: #0C0C0C;
+    color: white;
+}
+
+.userlogin {
+    text-align: center;
+    color: white;
+}
+
+.userlogin h2 {
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.userlogin h3 {
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.userlogin h4 {
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.back {
+    font-family: 'Inria Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.back:hover {
+    color: gray;
+}
+
+.register {
+    text-decoration: underline;
+    color: white;
+}
+
+.register:hover {
+    color: grey;
+}
+
+footer {
+    text-align: center;
+    display: center;
+    font-size: 22px;
+    font-family: 'Inria Sans', sans-serif;
+    background-color: #0C0C0C;
+    height: 140px;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 601px) {
+    .name {
+        font-size: 30px;
+    }
+
+    .menutop {
+        font-size: 18px;
+
+    }
+
+    .produto {
+        width: 100%;
+        height: 100%;
+    }
+
+    .produto h2 {
+        font-size: 30px;
+    }
+
+    .produto h3 {
+        font-size: 30px;
+    }
+
+    .produtos h4 {
+        font-size: 14px;
+    }
+
+    .produtos p {
+        font-size: 14px;
+    }
+
+    .nossosprods h2 {
+        font-size: 18px;
+    }
+
+    .nossosprods h3 {
+        font-size: 18px;
+    }
+
+    .listaprodutos h2 {
+        font-size: 18px;
+    }
+
+    .produtoimg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .produtoimg-xbox {
+        background-position: center;
+        width: 100%;
+        height: 380px;
+    }
+
+    .produtoimg-ps4 {
+        background-position: center;
+        width: 100%;
+        height: 380px;
+    }
+
+    .produtoimg-note {
+        background-position: center;
+        width: 100%;
+        height: 380px;
+    }
+
+    .imagemprod {
+        width: 100%;
+        height: 100%;
+    }
+
+    .secao_cards {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .button {
+        padding: 10px 24px;
+    }
+
+    .socials {
+        width: 24px;
+        border-radius: 8px;
+        margin-right: 10px;
+    }
+
+    footer {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .name {
+        font-size: 24px;
+    }
+
+    .menutop {
+        display: none;
+        flex-direction: column;
+        box-shadow: 0 5px 5px #000229;
+    }
+
+    .barras {
+        display: flex;
+    }
+
+    .produto {
+        width: 100%;
+        height: 100%;
+    }
+
+    .produto h2 {
+        font-size: 20px;
+    }
+
+    .produto h3 {
+        font-size: 20px;
+    }
+
+    .produtos h4 {
+        font-size: 12px;
+    }
+
+    .produtos p {
+        font-size: 12px;
+    }
+
+    .nossosprods h2 {
+        font-size: 16px;
+    }
+
+    .nossosprods h3 {
+        font-size: 16px;
+    }
+
+    .listaprodutos h2 {
+        font-size: 16px;
+    }
+
+    .produtoimg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .produtoimg-xbox {
+        background-position: center;
+        width: 100%;
+        height: 380px;
+    }
+
+    .produtoimg-ps4 {
+        background-position: center;
+        width: 100%;
+        height: 380px;
+    }
+
+    .produtoimg-note {
+        background-position: center;
+        width: 100%;
+        height: 380px;
+    }
+
+    .imagemprod {
+        width: 100%;
+        height: 100%;
+    }
+
+    .secao_cards {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .button {
+        padding: 8px 12px;
+    }
+
+    .socials {
+        width: 20px;
+        border-radius: 8px;
+        margin-right: 10px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}

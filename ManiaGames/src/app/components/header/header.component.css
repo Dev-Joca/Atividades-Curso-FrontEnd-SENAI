@@ -1,0 +1,81 @@
+.cabecalho {
+    text-align: center;
+}
+
+.name {
+    color: red;
+    background-color: #000569;
+    font-size: 40px;
+    font-family: 'Inder', sans-serif;
+    letter-spacing: 2px;
+}
+
+.barras {
+    display: none;
+    width: 30px;
+}
+
+.menu-jquery {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px #000229;
+}
+
+.menu-jquery-escondido {
+    display: none;
+}
+
+.menutop {
+    font-size: 28px;
+    background-color: #000350;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menutop a {
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+}
+
+.menutop svg {
+    width: 30px;
+    fill: white;
+}
+
+.menutop a:hover {
+    color: gray;
+    scale: 0.9;
+}
+
+@media screen and (max-width: 601px) {
+    .name {
+        font-size: 30px;
+    }
+
+    .menutop {
+        font-size: 18px;
+
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .name {
+        font-size: 24px;
+    }
+
+    .menutop {
+        display: none;
+        flex-direction: column;
+        box-shadow: 0 5px 5px #000229;
+    }
+
+    .barras {
+        display: flex;
+    }
+}
